@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Dev-Shaharyar/hello"
+	"github.com/Dev-Shaharyar/01helloworld"
 )
 
 func main() {
