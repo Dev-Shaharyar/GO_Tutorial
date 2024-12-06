@@ -13,7 +13,7 @@ func Multiplereturn() {
 	fmt.Println(b)
 	fmt.Println(c)
 
-	_, d, e := vals()
-	fmt.Println(d)
+	_, _, e := vals()
+	//fmt.Println(d)
 	fmt.Println(e)
 }
