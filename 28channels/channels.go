@@ -40,7 +40,7 @@ func Channels() {
 	ch := make(chan int, 2) // Buffered channel with capacity of 2
 	wg := &sync.WaitGroup{}
 
-	// 🔥 Goroutine 1: Producer sending 4 values, but the buffer is only size 2
+	// Goroutine 1: Producer sending 4 values, but the buffer is only size 2
 	wg.Add(1)
 	go func() {
 		defer wg.Done()
